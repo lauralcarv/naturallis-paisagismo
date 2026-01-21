@@ -16,7 +16,7 @@ function enviarParaWhatsApp() {
 
     // 4. Monta o texto da mensagem
     // O %0A serve para pular linha no WhatsApp
-    const texto = `*NOVO ORÇAMENTO - SITE*%0A%0A` +
+    const texto = `*NOVO ORÇAMENTO - NATURALLIS PAISAGISMO*%0A%0A` +
                   `*Nome:* ${nome}%0A` +
                   `*E-mail:* ${email}%0A` +
                   `*Telefone:* ${telefone}%0A` +
@@ -27,4 +27,5 @@ function enviarParaWhatsApp() {
 
     // 6. Abre o WhatsApp em uma nova aba
     window.open(url, '_blank').focus();
+
 }
